@@ -1,4 +1,4 @@
-# Excel Data Visualization Tool
+# MCDA Excel Data Analysis and Visualization Tool
 
 An interactive Excel data visualization tool that supports dynamic value adjustment and real-time ranking calculations. This tool can read Multi-Criteria Decision Analysis (MCDA) data from Excel files and provides interactive data adjustment and visualization capabilities.
 
