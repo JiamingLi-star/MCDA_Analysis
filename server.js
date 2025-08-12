@@ -4,11 +4,12 @@ const path = require('path');
 const { spawn } = require('child_process');
 const cors = require('cors');
 
+const app = express();
+
 app.use(cors({
   origin: 'https://2hangz.github.io'
 }));
 
-const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Serve static files
