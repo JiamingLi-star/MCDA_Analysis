@@ -1610,12 +1610,6 @@ function App() {
   return (
     <div className="w-full h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <div className="w-full h-full">
-        <div className="text-center mb-4">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-2">
-            MCDA Interactive Data Visualization
-          </h1>
-        </div>
-      
         {/* Main Layout - Left Panel (Controls) and Right Panel (Charts) */}
         <div className="flex flex-col lg:flex-row gap-4 h-[calc(100vh-64px)] w-full">
           {/* Left Panel - Controls */}
