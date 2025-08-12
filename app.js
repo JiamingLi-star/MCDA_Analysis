@@ -1608,10 +1608,10 @@ function App() {
   }, [isImageModalOpen]);
 
   return (
-    <div className="w-full h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <div className="w-full h-screen">
       <div className="w-full h-full">
         {/* Main Layout - Left Panel (Controls) and Right Panel (Charts) */}
-        <div className="flex flex-col lg:flex-row gap-4 h-[calc(100vh-64px)] w-full">
+        <div className="flex flex-col lg:flex-row gap-4 h-full w-full">
           {/* Left Panel - Controls */}
           <div className="lg:w-1/2 space-y-6 overflow-y-auto">
             {/* File Selector */}
